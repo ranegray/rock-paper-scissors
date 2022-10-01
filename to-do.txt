@@ -1,0 +1,8 @@
+if player choice equals rock and computer guesses paper you lose 
+but if the computer guesses scissors you win. 
+
+if player guesses paper and computer guesses rock you win
+but if they guess scissors you lose
+
+if player choice equals scissors and com guess rock you lose
+but if they guess paper you win
