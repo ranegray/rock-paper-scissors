@@ -41,14 +41,15 @@ const playRound = (playerSelection, computerSelection) => {
 
 function game(){
     for (let i = 0; i < 5; i++){
-        console.log(playRound(playerSelection, computerSelection));
-        
+        let playerSelection = prompt('Make a guess (rock, paper, or scissors: ');
+        let round = playRound(playerSelection, computerSelection);
+        console.log(round);
     };
 }
 
 // const playerSelection = "rock";
 // const playerSelection = prompt('Make a guess (rock, paper, or scissors: ');
 const computerSelection = getComputerChoice();
-// game();
-
+game();
+console.log(playerSelection)
 console.log(playRound(playerSelection, computerSelection));

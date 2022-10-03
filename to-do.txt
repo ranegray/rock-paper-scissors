@@ -6,3 +6,4 @@ but if they guess scissors you lose
 
 if player choice equals scissors and com guess rock you lose
 but if they guess paper you win
+
