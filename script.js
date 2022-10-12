@@ -47,9 +47,6 @@ function game(){
     };
 }
 
-// const playerSelection = "rock";
-// const playerSelection = prompt('Make a guess (rock, paper, or scissors: ');
 const computerSelection = getComputerChoice();
+
 game();
-console.log(playerSelection)
-console.log(playRound(playerSelection, computerSelection));
